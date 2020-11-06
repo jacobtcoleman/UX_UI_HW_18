@@ -1,0 +1,45 @@
+
+
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #E52464;
+    font-weight: lighter;
+    font-size: 50pt;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #E52464;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #E52464;
+    font-weight: lighter;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #E52464;
+    font-size: 36pt;
+}
