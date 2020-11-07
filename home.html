@@ -17,11 +17,11 @@
             float: left;
             width: 50%;
             padding: 70px;
+
         }
 
         /* Clear floats after the columns */
         .row:after {
-            content: "";
             display: table;
             clear: both;
         }
@@ -35,36 +35,52 @@
     </style>
 </head>
 
+<!--PRIMARY NAVIGATION-->
+<header class="navigation">
+    <div class="inline-block logo">
+        <img class="logo" src="images/jtc_logo-1.png">
+    </div>
+    <nav class="inline-block">
+        <uL>
+            <li class="inline-block">HOME</li>
+            <li class="inline-block">PROJECTS</li>
+            <li class="inline-block">ME</li>
+            <li class="inline-block">CONTACT</li>
+        </uL>
+    </nav>
+</header>
 
 <body>
 
-    <h2>PRIMARY NAVIGATION</h2>
-    <p>My name is Jacob T. Coleman, 
-        and I want to be your new designer. </p>
+    <div id="centerBG">
+    </div>
 
+    <!--LANDING: Name, roles-->
     <div class="row">
-        <div class="column" style="background-color:#FFFFFF;">
+        <div class="column" id="landing" style="background-color:#FFFFFF;">
             <h1>JACOB T. COLEMAN</h1>
-            <h6>User Experience Designer</h6>
-            <h6>Interface Designer</h6>
-            <h6>Graphic Designer</h6>
-            <h6>Photographer</h6>
-            <h6>Visual Artist</h6>
-            <p>Some text..</p>
+            <h6>User Experience Designer
+                <br>Interface Designer
+                <br>Graphic Designer
+                <br>Photographer
+                <br>Visual Artist
+            </h6>
         </div>
-        <div class="column" style="background-color:#FFFFFF;">
-            <h2>HERO IMAGE</h2>
-            <p>Some text..</p>
+
+        <!--SHOWCASE 1: COLLABAPLAN-->
+        <div class="column" id="showcase1" style="background-color:#FFFFFF;">
+            <img id="showcase1image" src="images/collabaplan_hero_phone-1.png">
+            <h2 class="link">COLLABAPLAN</h2>
+            <p class="synopsis">I created Collabaplan to merge all aspects of planning a vacation with family and
+                friends into one seamless app. One of the key features of this application is a voting system that
+                allows all travelers to get an equal say in what to do.</p>
         </div>
     </div>
 
-</body>
-
-</html>
-
-</head>
-
-<body>
+    <!--SIDE NAV BUTTON - Latest Work-->
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="theLatest">CHECK OUT MY LATEST WORK</a>
+    </div>
 
 </body>
 

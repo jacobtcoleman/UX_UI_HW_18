@@ -16,6 +16,7 @@ h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 30pt;
 }
 
 h3 {
@@ -40,6 +41,111 @@ h5 {
 h6 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    color: #E52464;
-    font-size: 36pt;
+    color: black;
+    font-size: 24pt;
+    font-weight: lighter;
 }
+
+.link:hover{
+    color: #E52464;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 70px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+ul {
+    width: 100%;
+    margin-left: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+li {
+    font-family: 'Oswald', sans-serif;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.inline-block li:hover {
+    color: #E52464
+}
+
+.logo {
+    padding: 1%;
+    text-align: center;
+    width: 50px;
+}
+
+#landing {
+    line-height: auto;
+    margin-top: 5%;
+}
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -250px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 20px; /* 15px padding */
+    width: 400px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    font-family: 'Oswald', sans-serif;
+    color: white; /* White text color */
+    border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+    text-align: right;
+  }
+
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+    background-color: #0093D5;
+  }
+
+  #theLatest {
+    top: 666px;
+    background-color: #E52464;
+  }
+
+  #showcase1image {
+     
+  }
+
+  #synopsis {
+      
+  }
+
+  #centerBG {
+      background-color: #E52464;
+      top:1000px;
+  }
+
+/* Spacing between all headers*/
+h1, h2, h3, h4, h5, h6{
+    margin-top:20px;
+    margin-bottom:10px;
+  }
