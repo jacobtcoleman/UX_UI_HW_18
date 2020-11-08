@@ -23,7 +23,8 @@ font-size: 30pt;
 h3 {
 font-family: 'Oswald', sans-serif;
 text-transform: uppercase;
-color: #E52464;
+color: white;
+font-weight: normal;
 }
 
 h4 {
@@ -110,6 +111,9 @@ grid-template-areas:
 "topLeftArea topRightArea"
 "middleArea middleArea"
 "bottomLeftArea bottomRightArea"
+"aboutLeftArea aboutRightArea"
+"skillsArea skillsArea"
+"contactLeft contactRight"
 }
 
 .topLeft {
@@ -123,8 +127,18 @@ background-color: white;
 .middle {
 background-color: #E52464;
 grid-area: middleArea;
-height: 200vw;
+height: 120vw;
 margin-left:-10px;
+}
+
+.aboutLeft {
+background-color: white;
+margin-top: 15vh;
+padding: 10%;
+}
+
+.aboutRight{
+margin-top: 15vh;
 }
 
 #landing {
@@ -138,22 +152,6 @@ position: absolute;
 top: 10%;
 margin-left:5%;
 }
-
-/*#showcase2 {
-position: absolute;
-top: 110vh;
-margin-left:5%;
-max-width: 40vw;
-max-height: auto;
-}
-
-#showcase2 img {
-position: absolute;
-top: 10%;
-margin-left:5%;
-max-width: 40vw;
-max-height: auto;
-}*/
 
 #showcase2 {
 position: relative;
@@ -192,12 +190,18 @@ max-width: 40vw;
 max-height: auto;
 }
 
+.aboutRight img {
+position: relative;
+top: 20%;
+max-width: 50vW;
+}
+
 .leftText {
-    margin-left: 0%;
+margin-left: 0%;
 }
 
 .synopsis {
-max-width:30vw;
+max-width:36vw;
 }
 
 /* Fly out button on the side*/
@@ -250,4 +254,59 @@ border: 2px solid white;
 .button1:hover {
 background-color: white;
 color: #E52464;
+}
+
+.button2 {
+    background-color: white;
+    color: #E52464;
+    border: 2px solid #E52464;
+    }
+    
+    .button2:hover {
+    background-color: #E52464;
+    color: white;
+    }
+
+.about {
+    font-size: 140%;
+    font-weight: lighter;
+}
+
+.skills {
+    background-color: #E52464;
+    grid-area: skillsArea;
+    height: 50vh;
+    margin-left:-10px;
+    text-align: center;
+    }
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: #E52464;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.flexContainer img {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 10px;
+    width: 15vw;
+    border-color: white;
+    border-width: thick;
+    align-items: center;
+}
+
+.skill {
+    width:20%;
+}
+
+.skill p {
+    color: white;
+}
+
+.skill h3 {
+    font-size: 140%;
 }
