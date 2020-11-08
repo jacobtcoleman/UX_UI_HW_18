@@ -1,7 +1,6 @@
-
-
 p {
   font-family: 'Oswald', sans-serif;
+  margin-top: 0px;
 }
 
 h1 {
@@ -90,6 +89,11 @@ li {
     vertical-align: top;
     padding: 0px;
     margin-left: 20px;
+    margin-top: 10px;
+}
+
+.inline-block li{
+    margin-top: 12px;
 }
 
 .inline-block li:hover {
@@ -102,12 +106,20 @@ li {
     width: 50px;
 }
 
-#landing {
-    line-height: auto;
-    margin-top: 5%;
+.navigation {
+    margin-top: -32px;
+    margin-bottom: 0px;
+    margin-left: -42px;
+    margin-right: 0px;
 }
 
-#mySidenav a {
+#landing {
+    line-height: auto;
+    margin-top: 0%;
+}
+
+/* Fly out button on the side*/
+.sidenav a {
     position: absolute; /* Position them relative to the browser window */
     left: -250px; /* Position them outside of the screen */
     transition: 0.3s; /* Add transition on hover */
@@ -119,29 +131,20 @@ li {
     color: white; /* White text color */
     border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
     text-align: right;
+    background-color: #E52464;
   }
 
-  #mySidenav a:hover {
+.sidenav a:hover {
     left: 0; /* On mouse-over, make the elements appear as they should */
     background-color: #0093D5;
   }
 
   #theLatest {
-    top: 666px;
-    background-color: #E52464;
+    top: 580px;
   }
 
   #showcase1image {
-     
-  }
-
-  #synopsis {
-      
-  }
-
-  #centerBG {
-      background-color: #E52464;
-      top:1000px;
+     margin-top: -50px;
   }
 
 /* Spacing between all headers*/

@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style> 
-div {
-  width: 10%;
-  height: 100px;
-  background: red;
-  transition: width 0.5s;
-}
+  <style>
+    .button {
+      background-color: white;
+      /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      border-radius: 10px;
+    }
 
-#div1 {transition-timing-function: linear;}
-#div2 {transition-timing-function: ease;}
-#div3 {transition-timing-function: ease-in;}
-#div4 {transition-timing-function: ease-out;}
-#div5 {transition-timing-function: ease-in-out;}
+    .button1 {
+      background-color: #E52464;
+      color: white;
+      border: 2px solid white;
+    }
 
-div:hover {
-  width: 100%;
-}
-</style>
+    .button1:hover {
+      background-color: white;
+      color: #E52464;
+    }
+  </style>
 </head>
+
 <body>
-
-<div id="div1">linear</div><br>
-<div id="div2">ease</div><br>
-<div id="div3">ease-in</div><br>
-<div id="div4">ease-out</div><br>
-<div id="div5">ease-in-out</div><br>
-
-
-
-
+  <button class="button button1">VIEW MORE</button>
 </body>
+
 </html>
-
-
